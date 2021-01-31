@@ -1,9 +1,9 @@
 # MchacksMentalHealth
 
 Members:
-Victor Ouy
-Sandy Nguyen
-Anna Zhang
+Victor Ouy,
+Sandy Nguyen,
+Anna Zhang,
 Lin Yuan
 
 Project:
