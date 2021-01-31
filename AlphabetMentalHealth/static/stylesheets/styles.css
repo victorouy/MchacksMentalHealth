@@ -29,14 +29,8 @@ html, body {
     width: 25%;
 }
 
-.description-us {
-    float: left;
-    padding-right: 10em;
-    height: 90%;
-    width: 100%;
-}
-
 .div-about-image {
+    padding-top: 1.25em;
     width: 25%;
     float: left;
     padding-left: 1em;
@@ -50,13 +44,43 @@ html, body {
     text-align: center;
 }
 
+.title-about {
+    font-family: 'Helvetica';
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: .7em;
+    padding-bottom: .7em;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #CFCEFF;
+    height: 20%;
+}
+
+.description-us {
+    float: left;
+    height: 20em;
+    width: 100%;
+    position: relative;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 2.5em;
+    height: 60%;
+}
+
+.description-us img {
+    padding-left: 2em;
+}
+
 .about-text {
+    height: 20%;
+    position: relative;
     font-family: "Verdana";
     font-size: 25px;
-    padding-top: 3em;
+    text-align: center;
+    padding-bottom: 3em;
     padding-left: 7em;
     padding-right:7em
-    text-align: center;
 }
 
 .letters-card {
@@ -65,7 +89,7 @@ html, body {
 }
 
 .alphabet-page {
-    background-color: #dfdfff;
+    background-color: #dfdfff;  
 }
 
 .purple-card {
@@ -137,7 +161,7 @@ html, body {
 }
 
 .letters-card:hover {
-    box-shadow: 3px 3px 15px rgba(14, 14, 14, 0.2); 
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2); 
 }
 
 ul {
@@ -183,12 +207,6 @@ ul {
     padding-bottom: .5em;
 }
 
-.title-about {
-    font-family: 'Helvetica';
-    color: black;
-    font-size: 70px;
-    font-weight: bold;
-}
 
 .purpl {
     color: #5F5DB4;
@@ -204,14 +222,14 @@ ul {
     padding-left: 3em;
     padding-right: 3em;
     text-align: center;
+    line-height: 50px;
 }
 
 .p-contact{
     font-family: 'Helvetica';
     font-size: 30px;
-    padding-left: 3em;
-    padding-right: 3em;
     text-align: center;
+    line-height: 40px;
 }
 
 .h1-contact{
@@ -221,8 +239,8 @@ ul {
     line-height: 100px;
     text-align: center;
     color: #000000;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-top: .75em;
+    padding-bottom: .75em;
 }
 
 .h2-contact{
@@ -233,37 +251,36 @@ ul {
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-top: 2.2em;
+    padding-bottom: 0.5em;
 }
 
 .h3-contact{
-  font-family: 'Helvetica';
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 54px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #5F5DB4;
-  padding-left: 3em;
-  padding-right: 3em;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #5F5DB4;
+    padding-bottom: 1em;
 }
   
 .h4-contact{
-  font-family: 'Helvetica';
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 96px;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #C7CDD3;
-  padding-left: 3em;
-  padding-right: 3em;
-  text-align: center;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
 }
 
 .top-border{
-    height: 30em;
+    height: 40em;
     width: 100%;
     background-color: #CFCEFF;
 }
@@ -292,7 +309,7 @@ ul {
     font-family: 'Verdana', cursive;
     text-align: center;
     padding-top: 1em;
-    font-size: 30px;
+    font-size: 24px;
     padding-left: 8em;
     padding-right: 8em;
 }
@@ -312,7 +329,80 @@ ul {
     
 .stats-text{
     font-family: 'Verdana', cursive;
-    font-size: 30px;
+    font-size: 26px;
     padding-right: 1em;
     padding-left: 1em;
+    padding-bottom: 2em;
 }
+
+.support-text {
+    padding-bottom: 2em;
+}
+
+.contact-images {
+    padding-left: 19em;
+}
+
+.contact-images img {
+    margin-right: 6em;
+    border-radius: 25px;
+}
+
+.quiz-title{
+    font-family: 'Helvetica';
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 22px;
+    text-align: center;
+    background-color: #CFCEFF;
+    padding-bottom: .5em;
+}
+
+.questions-heading{
+    font-family: 'Helvetica';
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #CFCEFF;
+}
+
+.questionnaire {
+    padding-left: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 20px;
+}
+
+#buttSubmit {
+    background-color: rgb(212, 211, 211);
+    width: 12em;
+    height: 3em;
+}
+
+#error-msg {
+    color: red;
+    padding-bottom: .5em;
+}
+
+
+
+
+
+/* 
+
+.quiz-answer {
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.quiz-answer p {
+    font-family: "Helvetica";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+*/
