@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <script src="/static/javascript/script.js"></script>
+
+    <div class="quiz-title">
+        QUIZ
+        <br>
+        <span class="questions-heading">Attempt our quiz to find out your self-care level!</span>
+    </div>
+
+    <form class="questionnaire">
+        <p> 1. I get around 8-9 hours of sleep every night.</p>
+        <input type="radio" id="q1a1" name="ques1" value="Frequently">
+        <label for="Frequently">Frequently</label><br>
+        <input type="radio" id="q1a2" name="ques1" value="Occasionally">
+        <label for="Occasionally">Occasionally</label><br>
+        <input type="radio" id="q1a3" name="ques1" value="Rarely">
+        <label for="Rarely">Rarely</label><br>
+        <input type="radio" id="q1a4" name="ques1" value="Never">
+        <label for="Never">Never</label><br>
+        
+        <br>
+
+        <p> 2. I exercise or do a fun physical activity if I’m feeling stressed.</p>
+            <input type="radio" id="q2a1" name="ques2" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q2a2" name="ques2" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q2a3" name="ques2" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q2a4" name="ques2" value="Never">
+            <label for="Never">Never</label><br>
+        
+        <br>
+
+        <p> 3. I allow myself to show emotions.</p>
+            <input type="radio" id="q3a1" name="ques3" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q3a2" name="ques3" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q3a3" name="ques3" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q3a4" name="ques3" value="Never">
+            <label for="Never">Never</label><br>
+            
+        <br>
+            
+        <p> 4. I ask for help whenever I am feeling depressed or anxious.</p>
+            <input type="radio" id="q4a1" name="ques4" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q4a2" name="ques4" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q4a3" name="ques4" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q4a4" name="ques4" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>
+
+        <p> 5. I take deep breaths if I find myself getting overwhelmed, and take time to tend to
+            those emotions.</p>
+            <input type="radio" id="q5a1" name="ques5" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q5a2" name="ques5" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q5a3" name="ques5" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q5a4" name="ques5" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>    
+
+        <p> 6. I spend most of my time with people who make me happy and who supports me.</p>
+            <input type="radio" id="q6a1" name="ques6" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q6a2" name="ques6" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q6a3" name="ques6" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q6a4" name="ques6" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>
+
+        <p> 7. I love myself and give myself positive affirmations.</p>
+            <input type="radio" id="q7a1" name="ques7" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q7a2" name="ques7" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q7a3" name="ques7" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q7a4" name="ques7" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>
+
+        <p>8. I take time to chat and get to know others (co-workers, students, neighbors, etc.).</p>
+            <input type="radio" id="q8a1" name="ques8" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q8a2" name="ques8" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q8a3" name="ques8" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q8a4" name="ques8" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>
+
+        <p>9. I strive for balance among work, family, relationships, play and rest.</p>
+            <input type="radio" id="q9a1" name="ques9" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q9a2" name="ques9" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q9a3" name="ques9" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q9a4" name="ques9" value="Never">
+            <label for="Never">Never</label><br>
+
+        <br>
+
+        <p>10. I eat regularly (Breakfast, Lunch, Dinner or after fasting).</p>
+            <input type="radio" id="q10a1" name="ques10" value="Frequently">
+            <label for="Frequently">Frequently</label><br>
+            <input type="radio" id="q10a2" name="ques10" value="Occasionally">
+            <label for="Occasionally">Occasionally</label><br>
+            <input type="radio" id="q10a3" name="ques10" value="Rarely">
+            <label for="Rarely">Rarely</label><br>
+            <input type="radio" id="q10a4" name="ques10" value="Never">
+            <label for="Never">Never</label><br>
+        
+        <br>
+ 
+        <div id="error-msg">
+       </div> 
+
+        <!-- <input type="button" onclick="myFunction()" value="Evaluate result"> -->
+        <button id="buttSubmit" type="button">Evaluate answers</button>
+        
+    </form>
+
+    <div id="quiz-result">
+        <!-- <div class="quiz-answer-title">
+            Your Self-Care Evaluation
+        </div>
+        <div class="quiz-answer">
+            <p>It sounds like you may not be practicing a whole lot of self-care, but you can change that! Self-care is taking
+                the time to care for myself in whichever ways work best for you. We know that to be in a healthy relationship we each need time for ourselves and our own interests, and sometimes even when we’re single our
+                work and school schedules can get in the way of us truly taking the best care of ourselves. It’s important
+                to remember that self-care is not selfish, it’s self-LOVE.It sounds like you may not be practicing a whole lot of self-care, but you can change that! Self-care is taking
+                the time to care for myself in whichever ways work best for you. We know that to be in a healthy relationship we each need time for ourselves and our own interests, and sometimes even when we’re single our
+                work and school schedules can get in the way of us truly taking the best care of ourselves. It’s important
+                to remember that self-care is not selfish, it’s self-LOVE.</p>
+        </div> -->
+    </div>
+    <br><br><br><br>
+
+{% endblock %}
+
+
