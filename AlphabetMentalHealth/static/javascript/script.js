@@ -4,15 +4,21 @@ function submitEvaluation() {
     var divErr = document.getElementById('error-msg');
 
     if (!allIsSelected()) {
-        // Add text in red saying "You must answer all the questions"
         divErr.innerHTML = 'You must answer all the questions';
         console.log("error");
     }
     else {
         divErr.innerHTML = '';
         calcAllQues();
-        
-        var resultMsg = document.getElementById("quiz-result");
+        addEvaluation()
+
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        score = 0;
+    }
+}
+
+function addEvaluation() {
+    var resultMsg = document.getElementById("quiz-result");
         resultMsg.style.textAlign = "center";
         resultMsg.style.width = "100em";
         resultMsg.style.height = "auto";
@@ -48,29 +54,24 @@ function submitEvaluation() {
             the time to care of yourself in whichever ways work best for you. To be in a healthy relationship, you need time\
             to work on yourself and your own interests. It’s important to remember that self-care is not selfish, it’s self-love"));
         }
-        else if (8<=score <= 15){
+        else if (score >= 8 && score <= 15){
             textNode.appendChild(document.createTextNode("It sounds like you may be practicing a little self-care, but could use some more guidance \
             or ideas on how to best take care of myself. Remember: self-care is about taking the time to care for yourself in whichever ways\
             work best for you. Just start thinking about what you can do that makes you happy, and do it!"));
+            console.log("INSIDE:" + score);
         }
-        else if (16<=score<=22){
+        else if (score >= 16 && score <=22){
             textNode.appendChild(document.createTextNode("It sounds like you are doing a good job taking care of myself! Self-care is important for your emotional, mental,\
             and physical well-being, so keep it up! If you’re used to doing the same techniques or methods, maybe try\
             something totally new. If you usually journal your feelings, try your hand at art. If you always go for a run or do a\
             physical activity, try some meditation and deep breathing exercises too. New experiences can be fun!"));
         }
-        else if (23<=score<=30){
+        else if (score >= 23){
             textNode.appendChild(document.createTextNode("It sounds like you know all about self-care, and are excellent at taking those few moments to focus on you!\
             Keep it up! Self-care can only bring positive things."));
         }
-
         textDiv.appendChild(textNode);
         resultMsg.appendChild(textDiv);
-
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        console.log("SCORE IS " + score);
-        score = 0;
-    }
 }
 
 function calcAllQues() {
