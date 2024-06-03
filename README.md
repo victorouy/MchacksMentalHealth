@@ -5,10 +5,10 @@
 **Demo Video**: [Watch on YouTube](https://youtu.be/xy2PCPm67AI)
 
 ### Members:
-- Victor Ouy
-- Sandy Nguyen
-- Anna Zhang
-- Lin Yuan
+- Victor Ouy [https://github.com/victorouy]
+- Sandy Nguyen [https://github.com/sandynguyen8928]
+- Anna Zhang [https://github.com/yikeanna]
+- Lin Yuan [https://github.com/Snoocrypto]
 
 ### Project Description:
 Mental Health Alphabet is a web application designed to educate people about various mental health conditions in an engaging and interactive manner. The application aims to make learning about mental health comfortable and accessible. It provides resources from healthcare professionals, including helplines and links to relevant websites. Additionally, the application features a quiz to help users estimate their mental well-being.
