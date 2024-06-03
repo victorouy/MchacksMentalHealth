@@ -1,5 +1,5 @@
 # MchacksMentalHealth
-###For McHacks Hackathon!
+### For McHacks Hackathon!
 
 Demo video: https://youtu.be/xy2PCPm67AI
 
