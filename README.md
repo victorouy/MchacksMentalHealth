@@ -24,3 +24,9 @@ Mental Health Alphabet is a web application designed to educate people about var
    Open your command prompt and enter:
    ```bash
    pip install flask
+2. **Run the Application**:
+   Navigate to the project folder 'AlphabetMentalHealth' in the command prompt and enter:
+   ```bash
+   python "app.py"
+3. **Access the Web App**:
+   Open your web browser and enter the allocated URL provided by Flask.
