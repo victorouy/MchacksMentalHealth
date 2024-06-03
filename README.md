@@ -1,21 +1,26 @@
 # MchacksMentalHealth
+
 ### For McHacks Hackathon!
 
-Demo video: https://youtu.be/xy2PCPm67AI
+**Demo Video**: [Watch on YouTube](https://youtu.be/xy2PCPm67AI)
 
-Members:
-Victor Ouy,
-Sandy Nguyen,
-Anna Zhang,
-Lin Yuan
+### Members:
+- Victor Ouy
+- Sandy Nguyen
+- Anna Zhang
+- Lin Yuan
 
-Project:
-Mental Health Alphabet is a web application that allows people to educate themselves about different types of mental health conditions. We made it in a fun interactive way to make people feel comfortable learning about that subject. Mental Health Alphabet provides resources from healthcare professionals for people in need, such as helplines and links to other websites. We also included a quiz that allows people to estimate their mental well-being.
+### Project Description:
+Mental Health Alphabet is a web application designed to educate people about various mental health conditions in an engaging and interactive manner. The application aims to make learning about mental health comfortable and accessible. It provides resources from healthcare professionals, including helplines and links to relevant websites. Additionally, the application features a quiz to help users estimate their mental well-being.
 
-We built Mental Health Alphabet using HTML, CSS, Javascript and Python (Flask). We used Figma to get a rough draft of the layout of our webpage and used Procreate to draw images by hand. Throughout the process, we were actively communicating while live coding using Live Share.
+### Technologies Used:
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (Flask)
+- **Design Tools**: Figma (for layout drafts), Procreate (for hand-drawn images)
+- **Collaboration**: Live coding using Live Share for active communication and development
 
-
-How to run web app:
-1. Install Flask by entering in command prompt:  pip install flask
-2. In project folder 'AlphabetMentalHealth', enter in command prompt:  python "app.py"
-3. Enter in web browser the allocated url given
+### How to Run the Web App:
+1. **Install Flask**:
+   Open your command prompt and enter:
+   ```bash
+   pip install flask
